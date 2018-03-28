@@ -154,7 +154,7 @@ public class TextureHelper {
         return textureId;
     }
 
-    public static int getExternalOESTextureID() {
+    public static int genExternalOESTextureID() {
         int[] texture = new int[1];
 
         GLES20.glGenTextures(1, texture, 0);

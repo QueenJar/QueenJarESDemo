@@ -93,13 +93,13 @@ public class GLCommonUtils {
 
     /**
      * <pre>
-     *     判断环境是否支持FBO
+     *     判断环境是否支持OES FBO
      * </pre>
      *
      * @param gl
      * @return
      */
-    public static boolean checkIfContextSupportsFrameBufferObject(GL10 gl) {
+    public static boolean checkIfContextSupportsOESFrameBufferObject(GL10 gl) {
         return gl == null ? checkIfContextSupportsExtension("GL_OES_framebuffer_object") : checkIfContextSupportsExtension(gl, "GL_OES_framebuffer_object");
     }
 
