@@ -21,6 +21,7 @@
         <activity android:name=".OpenGLActivity" />
         <activity android:name=".LargeActivity" />
         <activity android:name=".AboutActivity" />
+        <!-- **************************OpenGL ES********************************************-->
         <activity
             android:name=".tab.opengl.camera.simpleshow.SimpleGLCameraAty"
             android:label="Camera/SimpleShow">
@@ -38,9 +39,18 @@
                 <category android:name="com.dandy.demo.category.OPENGL" />
             </intent-filter>
         </activity>
+        <!-- **************************Android********************************************-->
         <activity
             android:name=".tab.android.FilePickAty"
             android:label="Choose File">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.dandy.demo.category.ANDROID" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tab.android.ImagePickActivity"
+            android:label="Choose Image">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.dandy.demo.category.ANDROID" />
