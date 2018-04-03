@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.queenjar.demo.tab.BaseDemoAty;
-import com.queenjar.demo.tab.android.FilePickAty;
 import com.queenjar.helper.android.LogHelper;
 import com.queenjar.helper.android.res.AssetsHelper;
 import com.queenjar.helper.java.JFileHelper;
