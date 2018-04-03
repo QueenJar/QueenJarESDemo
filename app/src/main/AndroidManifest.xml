@@ -39,6 +39,14 @@
                 <category android:name="com.dandy.demo.category.OPENGL" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".tab.opengl.obj.ObjPretreatmentAty"
+            android:label="Obj/2.Pretreat Obj File">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.dandy.demo.category.OPENGL" />
+            </intent-filter>
+        </activity>
         <!-- **************************Android********************************************-->
         <activity
             android:name=".tab.android.FilePickAty"
@@ -56,6 +64,7 @@
                 <category android:name="com.dandy.demo.category.ANDROID" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
