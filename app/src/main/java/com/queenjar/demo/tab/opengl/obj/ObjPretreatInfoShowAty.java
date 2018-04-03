@@ -13,15 +13,11 @@ import android.widget.TextView;
 
 import com.queenjar.demo.tab.BaseDemoAty;
 import com.queenjar.helper.android.LogHelper;
-import com.queenjar.helper.android.res.AssetsHelper;
-import com.queenjar.helper.java.JFileHelper;
 import com.queenjar.module.objload.Obj3DBufferLoadAider;
-import com.queenjar.module.objload.Obj3DLoadAider;
 import com.queenjar.module.objload.Obj3DLoadResult;
 import com.queenjar.module.objload.OnLoadListener;
 
 import java.io.File;
-import java.io.InputStream;
 
 /**
  * <pre>
